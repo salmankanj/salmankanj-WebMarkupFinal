@@ -4,14 +4,14 @@
            <meta charset="utf-8"/>
             <meta name="description" content="This webpage dicusses about sports technologies that could enhance sports in a positive way "/>
              <meta name="author" content="Salman kanj"/>
-            <link rel="icon" href="image/websitefavicon.png" type ="image/png" sizes="16x16">
+            <link rel="icon" href="img/websitefavicon.png" type ="image/png" sizes="16x16">
             <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
             <title>Contact</title>
         </head>
         <body>
    
         <header  id="header">
-                 <img src="image/websitelogo.png" alt="Sportsgood" title= "logo" id="logo"/>
+                 <img src="img/websitelogo.png" alt="Sportsgood" title= "logo" id="logo"/>
                     <h1 id="title">SportGoods</h1>
                     <h2 id="payoff"> 
                 <em id="payofftext">The new era of sports</em>
@@ -19,44 +19,66 @@
            <nav>
                 <ul class="nav">
                             <li>
-                                <a href="index.html">index</a>
+                                <a href="index.html">Index</a>
                             </li>
                             <li>
-                                <a href="product.html">product</a>
+                                <a href="product.html">Product</a>
                             </li>
                             <li>
-                                <a href="contact.html">contact</a>
-                            </li>
+                                <a href="pricing.html">Pricing</a>
                             <li>
-                                <a href="pricing.html">pricing</a>
-                            <li>
+                            
+                            
                 </ul>
+                <input type="checkbox" id="hamburger-input" class="burger-shower" />
+                        <label id="hamburger-menu" for="hamburger-input"></label>
+                
+                
+                        <ul class ="sidebar-menu">
+                        <li><a href="index.html">Home</a><li>
+
+                        <li><a href="product.html">Product</a><li>
+
+                        <li ><a href="price.html">Price</a><li>
+
+                        <li><a href="contact.html">contact</a><li>
+                        </ul>
+                        
             </nav>
         </header>
-       
-        <form class="contact-form" action="contactform.php" method="post" >
-            <fieldset class ="fieldset">
-                <legend>Contact Us</legend> 
-                <input  class="text" type="text" name="name" placeholder="Full name">
-                <input  class="text" type="text" name="email" placeholder="Your e-mail">
-              <textarea id="textarea" name="message" placeholder="Message"></textarea>
-              <button class="button" type="submit" name="submit">Send</button>
+        <article id="article-contact">
+            <h2>
+                <strong>Contact US VIA THIS FORM</strong>
+            </h2>
+            <form class="contact-form" action="contactform.php" method="post" >  
+            <fieldset>
+            <legend>Contact Form</legend>
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="name" placeholder="Your name..">
+         <label for="email">Email</label>
+        <input type="email" id="email" name="email" value="email" placeholder="Your Email..">
+         <label for="subject">Message</label>
+        <textarea id="subject" name="message" placeholder="Write something.."></textarea>
 
-               </fieldset> 
-        </form>
+        <input type="submit" value="Submit">
+    </fieldset>
+</form>
+    
+   
+        
        <aside class="asidecontact">
             <a href="https://www.inholland.nl/">
-                <img alt="contactphoto1" src="image/fitbit.jpg" class="contactpics1">
+                <img alt="contactphoto1" src="img/fitbit.jpg" class="contactpics1" title="contact1">
             </a>
         
         
              <a href="https://www.inholland.nl/">
-                    <img alt="contactphoto2" src="image/drone.jpg" class="contactpics2">
+                    <img alt="contactphoto2" src="img/drone.jpg" class="contactpics2" title="contact2">
             </a>
       
         
             <a href="https://www.inholland.nl/">
-                    <img alt="contactphoto3" src="image/fitness.jpg" class="contactpics3">
+                    <img alt="contactphoto3" src="img/fitness.jpg" class="contactpics3" title="contact3">
                 </a>
         </aside>
         <article class="contactCookies">
